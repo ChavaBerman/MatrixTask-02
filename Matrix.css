@@ -1,0 +1,108 @@
+* {
+    background: #000000;
+    user-select: none;
+  }
+  nav{
+      margin-left: 50px;
+     
+  }
+  header {
+    color: rgba(0, 10, 0, 1);
+    font: 25px Arial,sans-serif;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 50px;
+    text-shadow:0 0 30px green; 
+    transition-duration: 0.5s;
+    -webkit-box-reflect:below 0px
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.3, transparent), to(white));
+  }
+  
+  .headhover {
+    font: 25px Arial,sans-serif;
+    font-weight: bold;
+    text-shadow:0 0 50px green; 
+    transition-duration: 0.5s;
+  }
+  
+  .matrixhover {
+    text-shadow:0 0 20px green;
+    transition-duration: 0.2s;
+  }
+  
+  .matrixrain {
+    float: left;
+    font: 20px Calibri Light, sans-serif;
+    font-weight: bold;
+    width: 0px;
+    margin-left: 20px;
+  }
+  
+  p {transition-duration: 2s;}
+  
+  #pwdcontainer {
+    margin-top: 50px;
+    width: 440px;
+    height: 550px;
+    
+    
+    box-shadow:0 0 30px green;
+    overflow: hidden;
+  }
+  
+  #screen {
+    height: 100px;
+    width: fit-content;
+  }
+  
+  #display {
+    
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(0, 120, 0);
+    border: 1px solid;
+    height: 65px;
+    font: 20px Calibri Light, sans-serif;
+    text-align: center;
+    line-height: 65px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .keypad {
+    color: rgb(0, 120, 0);
+    float: left;
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    font: 25px Calibri Light, sans-serif;
+    text-align: center;
+    line-height: 108px;
+    transition: 0.5s;
+    
+  }
+  
+  .keypad:hover {
+    box-shadow:0 0 30px green;
+    position: relative;
+    background: rgb(0, 5, 0);
+  }
+  
+  .keypad:active {
+      transition: all 0.1s;
+      transform: translatey(3px);
+  }
+  
+  
+  
+  
+  
+  
+  
+
+ 
